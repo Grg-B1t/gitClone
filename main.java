@@ -8,20 +8,20 @@ public class main {
                 new emp("Manny", 3, "DuceX"),
                 new emp("Som", 4, "Nissan"));
 
+        List<student> stuList = Arrays.asList(new student("Ham", 1, "CS", 3.5),
+                new student("Gon", 2, "CSX", 3.1),
+                new student("Killiua", 1, "PSY", 3.7),
+                new student("Goku", 1, "HST", 2.5));
 
-            List<student> stuList = Arrays.asList(new student("Ham", 1, "CS", 3.5),
-            new student("Gon", 2, "CSX", 3.1),
-            new student("Killiua", 1, "PSY", 3.7),
-            new student("Goku", 1, "HST", 2.5));
-
-            for (student stu : stuList) {
-                System.out.println("Student name: " + stu.getName() + " | Student ID: " + stu.getId() + " | Student GPA: " + stu.getGpa());
-            }
-            System.out.println("----------------------------------");
-            for (emp e : empList) {
-                System.out.println("Employee name: " + e.getName() + " | Employee ID: " + e.getId() + "Employee Cpmpany: " + e.getCompany() );
-            }
+        for (student stu : stuList) {
+            System.out.println("Student name: " + stu.getName() + " | Student ID: " + stu.getId() + " | Student GPA: "
+                    + stu.getGpa());
+        }
+        System.out.println("----------------------------------");
+        for (emp e : empList) {
+            System.out.println("Employee name: " + e.getName() + " | Employee ID: " + e.getId() + "Employee Cpmpany: "
+                    + e.getCompany());
+        }
     }
-
 
 }
