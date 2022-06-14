@@ -14,7 +14,7 @@ public class main {
                 new student("Goku", 1, "HST", 2.5));
 
         for (student stu : stuList) {
-            System.out.println("Student name: " + stu.getName() + " | Student ID: " + stu.getId() + " | Student GPA: "
+            System.out.println("Student name: " + stu.getName() + " | Student ID: " + stu.getId() + " | Student Major: " + stu.getMajor() + " | Student GPA: "
                     + stu.getGpa());
         }
         System.out.println("----------------------------------");
